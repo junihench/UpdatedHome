@@ -507,6 +507,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #F7B41E;
   color:white;
 }
+
+
+.search-box .btn-light {
+  border: 1px solid #ced4da;
+}
 /* About Section
 --------------------------------*/
 
