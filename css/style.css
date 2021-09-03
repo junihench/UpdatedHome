@@ -516,7 +516,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 1px solid #ced4da;
 }
 
-@media (max-width: 1200px) 
+@media (max-width: 1000px) 
   {
    #intro{
     height:88vh;
@@ -525,6 +525,19 @@ body.mobile-nav-active #mobile-nav-toggle {
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    background-image: url('https://www.ustp.edu.ph/wp-content/uploads/2021/02/USTP-CDO-1536x862.jpg');
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    box-shadow: inset 0 0 0 1000px rgba(122, 103, 103, 0.2);
+    color:white;
+   }
+   .intro-title{
+     color: white;
    }
   }
 /* About Section
